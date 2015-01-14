@@ -1,0 +1,2 @@
+language: swift
+xcodebuild test -workspace SwiftExperimentApp.xcworkspace -scheme SwiftExperimentApp -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
