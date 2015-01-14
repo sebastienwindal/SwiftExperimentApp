@@ -42,7 +42,7 @@ class ASampleQuickTest: QuickSpec {
             }
 
             it ("calls multiple callbacks") {
-                var count: UInt8 = 0
+                var count: UInt32 = 0
                 loader.registerForStateChange({ (state: LoadingStates) -> Void in
                     count = count + 3
                 })
