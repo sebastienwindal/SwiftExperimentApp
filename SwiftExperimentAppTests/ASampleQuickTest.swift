@@ -55,7 +55,7 @@ class ASampleQuickTest: QuickSpec {
 
                 loader.state = LoadingStates.LoadingStatecompletedWithFailure
 
-                expect(count).to(equal(123));
+                expect(count).to(equal(12300));
             }
 
             it ("does not call callback when setting identical state", {
